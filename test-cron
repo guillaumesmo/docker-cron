@@ -1,0 +1,2 @@
+* * * * * root ls foo > /proc/$(cat /var/run/crond.pid)/fd/1 2> /proc/$(cat /var/run/crond.pid)/fd/2
+* * * * * root echo "bar" > /proc/$(cat /var/run/crond.pid)/fd/1 2> /proc/$(cat /var/run/crond.pid)/fd/2
